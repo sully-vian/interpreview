@@ -1,24 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <title>InterPreview</title>
+  </head>
 
-<head>
-	<title>InterPreview</title>
-</head>
-
-<body>
-	<h1>InterPreview</h1>
-	<form id="usernameForm">
-		<input type="text" id="usernameInput" placeholder="your github username" required>
-		<button type="submit">List repositories</button>
-	</form>
-	<form id="repoForm">
-		<input type="text" id="repoInput" placeholder="your github repo url" required>
-		<select name="aaa" id="repoSelect" hidden>
-			<option id="defaultOption">Loading...</option>
-		</select>
-		<button type="submit">Generate interview questions</button>
-	</form>
-	<script src="script.js"></script>
-</body>
-
+  <body>
+    <h1>InterPreview</h1>
+    <form id="usernameForm">
+      <input
+        type="text"
+        id="usernameInput"
+        placeholder="your github username"
+        required
+      />
+      <button type="submit">List repositories</button>
+    </form>
+    <form id="repoForm">
+      <input
+        type="text"
+        id="repoInput"
+        placeholder="your github repo url"
+        required
+      />
+      <select name="aaa" id="repoSelect" hidden>
+        <option id="defaultOption">Loading...</option>
+      </select>
+      <button type="submit">Generate interview questions</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
 </html>

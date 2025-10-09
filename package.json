@@ -1,24 +1,24 @@
 {
-	"name": "interpreview",
-	"version": "1.0.0",
-	"description": "A simple LLM wrapper to prepare you to job interviews",
-	"homepage": "https://github.com/sully-vian/interpreview#readme",
-	"bugs": {
-		"url": "https://github.com/sully-vian/interpreview/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sully-vian/interpreview.git"
-	},
-	"license": "MIT",
-	"author": "sully-vian",
-	"type": "commonjs",
-	"main": "index.html",
-	"scripts": {
-		"start": "live-server",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"devDependencies": {
-		"live-server": "^1.2.2"
-	}
+  "name": "interpreview",
+  "version": "1.0.0",
+  "description": "A simple LLM wrapper to prepare you to job interviews",
+  "homepage": "https://github.com/sully-vian/interpreview#readme",
+  "bugs": {
+    "url": "https://github.com/sully-vian/interpreview/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sully-vian/interpreview.git"
+  },
+  "license": "MIT",
+  "author": "sully-vian",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
